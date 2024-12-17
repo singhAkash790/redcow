@@ -1,0 +1,46 @@
+{
+  "customAddress": [
+    {
+      "name": "Saltlake",
+      "address": "BG 1, Sector II, Saltlake Near Tank no.7 700064, Kolkata West Bengal, India"
+    },
+    {
+      "name": "Lake Town",
+      "address": "P-74, Lake Town Block B Opp. Central Bank of India 700089, Kolkata West Bengal, India"
+    },
+    {
+      "name": "Rajpur Sonarpur",
+      "address": "Shop No.5, Rajpur Sonarpur Opp. B.D. Memorial School 700103, Kolkata West Bengal, India"
+    },
+    {
+      "name": "Madhyamgram",
+      "address": "74/4/2, Jessore Road (South), Nabatirtha. Hridaypur, Opposite Star Mall Kolkata-700127"
+    },
+    {
+      "name": "ALAMBAZAR",
+      "address": "Red Cow Dairy World, 62 Deshbandhu Road, Near Kalitala Math, Kolkata-700035"
+    },
+    {
+      "name": "BALLYGUNGE",
+      "address": "13 Pramathes Barua Road, Ground Floor, Beside Automobile Club, Kolkata-700019"
+    },
+    {
+      "name": "Camac Street",
+      "address": "18, Camac Street, Kolkata-700016, Opposite Joyalukkas Jewellry Shop"
+    },
+    {
+      "name": "Barasat",
+      "address": "82/2/1, K.N.C Road, Anima apartment, Barasat, Kolkata -700124"
+    },
+    {
+      "name": "Chandannagar",
+      "address": "G.T. Road,  Bagbazar, Court More, Chandannagar- 712136, Hooghly"
+    }
+  ],
+  "reliance_smart_bazaar": [
+    {
+      "name": "",
+      "address": "Ground Floor, 74, Diamond Harbour Road Ward No-77, Opposite St. Thomas School, Kolkata."
+    }
+  ]
+}

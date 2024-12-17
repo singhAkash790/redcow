@@ -1,0 +1,949 @@
+@media (max-width:1770px) {
+    .logo img {
+        width: 240px;
+    }
+
+    .creamy-dreamy .title,
+    .sundaes .title {
+        margin-top: 75px;
+    }
+
+    .webcont p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width:1600px) {
+    #sundaes::after {
+        width: 70px;
+        height: 50px;
+        left: 5%;
+    }
+
+    .icmenus ul li {
+        margin: 0 25px;
+    }
+
+    .Creamylicious:after {
+        width: 400px;
+        height: 300px;
+    }
+
+    .icmenus ul li a {
+        font-size: 14px;
+    }
+
+    header:before,
+    #header:after,
+    .banner:after,
+    .banner::before,
+    .outlates::after,
+    #creamylicious::before {
+        width: 65px;
+        height: 25px;
+    }
+
+    #banner:before {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 109%;
+    }
+
+    .webcont h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .web-container {
+        max-width: 80%;
+    }
+
+    .webcont h1:before {
+        width: 52px;
+        background-size: contain;
+        right: -10px;
+        top: -30px;
+    }
+
+    .webcont p {
+        margin: 0;
+    }
+
+    .title span {
+        font-size: 19px;
+        letter-spacing: 8px;
+        margin-bottom: 12px;
+    }
+
+    .title h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .title p {
+        font-size: 19px;
+        line-height: 26px;
+        margin: 10px auto;
+    }
+
+    .sundaycont ul li,
+    .cdreamy ul li {
+        font-size: 14px;
+        line-height: 28px;
+        letter-spacing: 0.5px;
+    }
+
+    .ctitle h3 {
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    .ctitle:before {
+        width: 130px;
+        height: 130px;
+        top: -44px;
+    }
+
+    .ice-cream img {
+        width: 80%;
+        position: relative;
+        left: 30px;
+    }
+
+    .sundayimg {
+        width: 52%;
+    }
+
+    .outlateshapes .ctitle:before {
+        width: 275px;
+        height: 275px;
+        top: -70px;
+    }
+
+    .outlateshapes .ctitle p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+
+    .copycontent p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .webcont {
+        width: 90%;
+    }
+
+    .copycontent p {
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 0.5px;
+    }
+
+    .icmenus ul li {
+        margin: 0 15px;
+    }
+
+    .outlateshapes {
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width:1400px) {
+    /* .outlates.reliance .outlateshapes {
+        width: 22%;
+        margin-left: 39%;
+    } */
+
+    .banner .web-container {
+        max-width: 70%;
+    }
+
+    .title h2 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    .icmenus ul li a,
+    .icmenus ul li:last-child a {
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+
+    .webcont {
+        width: 100%;
+    }
+
+    .webcont h1 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .webcont p {
+        width: 100%;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+    }
+
+    .Creamylicious:after {
+        width: 360px;
+        height: 250px;
+    }
+
+    .cdreamy ul {
+        margin-top: 10px;
+    }
+
+    .slider {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .title h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .title p {
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+    }
+
+    .outlateshapes {
+        width: 70%;
+        margin: 60px 15%;
+        display: flex;
+    }
+
+    .newOutlets {
+        width: 24%;
+    }
+
+
+    .outlateshapes .ctitle:before {
+        width: 225px;
+        height: 225px;
+        top: -55px;
+        left: 0;
+    }
+
+    .outlateshapes .ctitle p {
+        width: 70%;
+        padding-top: 0;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.5px;
+    }
+
+    #banner:before {
+        width: 100%;
+    }
+
+    .Creamylicious p {
+        width: 80%;
+    }
+
+    .sundaycont ul li,
+    .cdreamy ul li {
+        font-size: 13px;
+        line-height: 26px;
+        letter-spacing: 0.3px;
+    }
+
+    .creamy-dreamy,
+    .sundaes,
+    .outlates {
+        padding: 50px 0;
+    }
+
+    .outlates.reliance .title,
+    .outlates .ctitle {
+        margin: 0;
+    }
+
+    .outlates {
+        padding-top: 100px;
+    }
+
+    #outlates::before {
+        width: 70px;
+        height: 200px;
+    }
+}
+
+@media (max-width:1280px) {
+    .outlateshapes {
+        width: 82%;
+        margin: 60px 9%;
+    }
+
+    .newOutlets {
+        width: 30%;
+    }
+
+    .outlates.reliance .outlateshapes {
+        /* width: 25%; */
+        margin-bottom: 50px;
+    }
+
+    .webcont h1 {
+        font-size: 32px;
+        line-height: 44px;
+    }
+
+    #banner {
+        height: 90vh;
+        align-items: center;
+    }
+
+    .outlateshapes .ctitle:before {
+        left: 10px;
+    }
+}
+
+@media (max-width:1200px) {
+    .creamy {
+        flex-wrap: wrap;
+    }
+
+    .cdreamy {
+        width: 32%;
+        margin-bottom: 20px;
+    }
+
+    .sundaycont ul li,
+    .cdreamy ul li {
+        font-size: 17px;
+        line-height: 34px;
+    }
+
+    .creamy-dreamy .title,
+    .sundaes .title {
+        margin-top: 50px;
+    }
+
+    .sundaesent {
+        margin-top: 50px;
+    }
+
+    .sundayimg {
+        width: 50%;
+        margin-right: 5%;
+    }
+
+    .title h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .outlates_slider .outlateshapes {
+        width: 82%;
+        margin: 60px 1%;
+    }
+
+    .ice-cream:nth-child(3),
+    .ice-cream:nth-child(4) {
+        margin-bottom: 60px;
+    }
+
+    .cdreamy:nth-child(3),
+    .cdreamy:nth-child(5) {
+        margin-top: -50px;
+    }
+}
+
+@media (max-width:1140px) {
+    .outlates_slider .outlateshapes {
+        width: 100%;
+        margin: 70px 0;
+
+    }
+
+    #banner {
+        height: 70vh;
+    }
+
+    #banner:before {
+        height: 70%;
+    }
+
+}
+
+@media (max-width:980px) {
+    .outlateshapes .ctitle {
+        width: 100%;
+    }
+
+    .outlateshapes .ctitle p {
+        width: 43%;
+    }
+
+    .desktop-show {
+        display: none;
+    }
+
+    .mobile-show {
+        display: block;
+    }
+
+    .icmenus {
+        align-items: center;
+        background: #1c1c1e;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        top: 0;
+        transform: scaleY(0);
+        width: 100%;
+        position: fixed;
+        left: 0;
+        right: 0;
+        transition: all .5s ease;
+    }
+
+    .icmenus.active {
+        opacity: 1;
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+        visibility: visible;
+    }
+
+    .navbar,
+    header .navbar .mobile-show,
+    .banner .web-container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .webcont h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    button.hemburgurs.active {
+        z-index: 9;
+    }
+
+    button.hemburgurs.active span {
+        background: #fff;
+    }
+
+    .icmenus ul li {
+        width: 100%;
+        float: left;
+        margin: 0;
+        border-bottom: solid 1px #343434;
+    }
+
+    .icmenus ul {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .icmenus ul li a {
+        padding: 20px 0;
+        display: inline-block;
+        color: #fff !important;
+        width: 100%;
+        font-size: 21px;
+        font-weight: normal;
+        line-height: 30px;
+    }
+
+    .icmenus ul li:last-child {
+        border: none;
+    }
+
+    .icmenus ul li a.active {
+        color: #eb2128 !important;
+    }
+
+    .webcont {
+        margin-top: 5vh;
+        text-align: center;
+    }
+
+
+    .slider {
+        width: 100%;
+        margin: 0;
+    }
+
+    .Creamylicious,
+    .creamy-dreamy,
+    .sundaes,
+    .outlates {
+        padding: 40px 0;
+    }
+
+    .Creamylicious:after {
+        width: 230px;
+        height: 150px;
+        bottom: -15vh;
+    }
+
+    .title p {
+        width: 90%;
+    }
+
+    .web-container {
+        max-width: 90%;
+    }
+
+    .sundaes .ctitle:before {
+        left: 40%;
+    }
+
+    .outlates.reliance .outlateshapes,
+    .outlateshapes {
+        width: 100%;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+
+    .outlateshapes .ctitle {
+        margin: 100px 0;
+    }
+
+    .outlateshapes .ctitle:before {
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        width: 300px;
+        height: 300px;
+    }
+
+    .sundaes::before,
+    .outlates::before {
+        background-size: cover;
+    }
+
+    .outlates.reliance .outlateshapes {
+        margin-top: 50px;
+    }
+    button.hemburgurss.active {
+        z-index: 9;
+    }
+    #banner {
+        height: 100vh;
+    }
+    
+    #banner:before {
+        height: 100%;
+    }
+}
+
+@media (max-width:630px) {
+
+    .col-8.d-flex.align-items-center.justify-content-end {
+        display: none !important;
+    }
+
+    .cdreamy:last-child {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+
+    .cdreamy:last-child ul {
+        margin-top: 0;
+    }
+
+    .Creamylicious:after {
+        width: 180px;
+        height: 120px;
+    }
+
+    .ice-cream:nth-child(3),
+    .ice-cream:nth-child(4) {
+        margin-bottom: 80px;
+    }
+
+    #header .col-4 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #creamy-dreamy {
+        overflow: hidden;
+    }
+
+    #banner {
+        height: 100vh;
+        align-items: end;
+    }
+
+    .Creamylicious .slick-slider button.slick-arrow.slick-next {
+        right: 0 !important;
+    }
+
+    .banner img {
+        width: 100%;
+        margin: 0;
+        display: block;
+    }
+
+    /* #banner,
+    #banner:before {
+        height: 780px;
+        top: 0;
+    } */
+
+    .webcont {
+        margin-top: 5vh;
+    }
+
+    .banner {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .creamy-dreamy .title,
+    .sundaes .title {
+        margin-bottom: 25px;
+        margin-top: 0;
+    }
+
+    .cdreamy {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .ctitle:before,
+    .sundaes .ctitle:before {
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 70%;
+    }
+
+
+    .outlateshapes .ctitle:before {
+        top: 70%;
+    }
+
+    .sunday {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .sundaesent {
+        flex-wrap: wrap;
+    }
+
+    .ctitle h3 {
+        margin: 0;
+    }
+
+    .creamy-dreamy {
+        margin-top: 100px;
+    }
+
+    .sundaes.milkshakes.pt-0 {
+        padding-top: 50px !important;
+    }
+
+    .fixed .logo img {
+        width: 80%;
+    }
+
+    .creamy-dreamy:before,
+    .creamy-dreamy:after,
+    #outlates::before {
+        width: 80px;
+        height: 180px;
+    }
+
+    .sundaes.milkshakes::before {
+        width: 200px;
+        height: 270px;
+        background-size: contain;
+        top: 10%;
+    }
+
+    .title p {
+        width: 100%;
+    }
+
+    header.col12.fixed {
+        position: static;
+        background: transparent;
+        box-shadow: none;
+    }
+
+    .fixed .logo img {
+        width: 200px;
+    }
+
+    .banner .col-12.row {
+        margin: 0;
+        margin-top: 18vh;
+    }
+
+    .slick-slider button.slick-arrow.slick-prev,
+    .slick-slider button.slick-arrow.slick-next {
+        width: 15px;
+    }
+
+    .outlateshapes .ctitle p {
+        width: 45%;
+    }
+
+    .outlates_slider .outlateshapes {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width:580px) {
+    #sundaes::after {
+        width: 50px;
+        height: 20px;
+        left: 0;
+    }
+
+    header:before,
+    #header:after,
+    .banner:after,
+    .banner::before,
+    .outlates::after,
+    #creamylicious::before {
+        width: 50px;
+        height: 20px;
+        display: none;
+    }
+
+    .creamy-dreamy:before,
+    .creamy-dreamy:after,
+    #outlates::before {
+        width: 50px;
+        height: 100px;
+    }
+
+    .banner::before {
+        right: inherit;
+        top: 50%;
+        left: 10%;
+    }
+
+    header:before {
+        right: 0;
+        left: inherit;
+    }
+
+    .webcont h1:before {
+        width: 30px;
+        top: -30px;
+        right: 0;
+    }
+
+    .cdreamy:nth-child(3) {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:480px) {
+    .sunday {
+        margin-bottom: 15px;
+        flex-wrap: wrap;
+    }
+
+    .outlates_slider .slick-slider button.slick-arrow.slick-prev {
+        left: 3% !important;
+    }
+
+    .outlates_slider .slick-slider button.slick-arrow.slick-next {
+        transform: rotate(180deg);
+        right: 3% !important;
+        left: auto;
+    }
+
+
+    #copyrights {
+        margin-bottom: 50px;
+    }
+
+    .outlateshapes .ctitle {
+        margin: 70px 0;
+    }
+
+    .outlateshapes .ctitle:before {
+        width: 250px;
+        height: 250px;
+    }
+
+    .sundayimg {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .sundaycont {
+        width: 100%;
+        text-align: center;
+        margin: 50px 0;
+    }
+
+    .sundayimg img {
+        width: 100%;
+    }
+
+
+    .title span {
+        letter-spacing: 7px;
+        font-size: 16px;
+    }
+
+    .title h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .title p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .Creamylicious,
+    .creamy-dreamy,
+    .sundaes,
+    .outlates {
+        padding: 20px 0;
+    }
+
+    .sundaycont {
+        margin: 25px 0;
+    }
+
+    .sunday {
+        margin-bottom: 0;
+    }
+
+    .copycontent {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .copycontent p {
+        width: 100%;
+        margin: 0;
+    }
+
+    .outlates::after {
+        right: 0;
+        bottom: 5%;
+    }
+
+    .web-container {
+        max-width: 100%;
+    }
+
+    .webcont h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .cdreamy .ctitle h3 {
+        padding: 0;
+    }
+}
+
+@media (max-width:420px) {
+    .title {
+        margin-bottom: 25px;
+    }
+
+    .slick-slider button.slick-arrow.slick-next {
+        right: -10px;
+    }
+
+    .slick-slider button.slick-arrow.slick-prev {
+        left: -10px;
+    }
+
+    .title h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .ctitle h3 {
+        font-size: 21px;
+        line-height: 30px;
+    }
+
+    .outlates.reliance .outlateshapes {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width:320px) {
+    .banner .col-12.row {
+        margin-top: 25vh;
+    }
+
+    .slick-slider button.slick-arrow.slick-prev,
+    .slick-slider button.slick-arrow.slick-next {
+        width: 12px;
+    }
+
+    .outlateshapes .ctitle p {
+        width: 70%;
+    }
+
+    .webcont h1 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .webcont p {
+        font-size: 16px;
+        line-height: 22px;  
+    }
+
+    .title h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .title span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .ctitle h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .sundaycont ul li,
+    .cdreamy ul li {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .outlateshapes .ctitle:before {
+        width: 250px;
+        height: 250px;
+    }
+
+    .outlateshapes .ctitle p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .title p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

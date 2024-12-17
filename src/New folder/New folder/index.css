@@ -1,0 +1,201 @@
+custom colors 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Archer';
+}
+
+:root {
+    --bgcolor: #f1f5fd;
+    --primary-color: #6f5de7;
+    --text-color: #828286;
+    --main-text-color: #333333;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333333;
+}
+
+/* --------------------------------- navbar css style starts 
+                        -------------------------------------------------------*/
+
+.btn-style {
+    width: 12rem;
+    height: 4rem;
+    border-radius: 2rem;
+    color: #fff;
+    background-color: var(--primary-color);
+    text-transform: capitalize;
+    font-size: 1.6rem;
+}
+
+.btn-style:first-child {
+    margin-right: 2rem;
+}
+
+.btn-style:hover {
+    border: 0.1rem solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+    box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+}
+
+.btn-style-border {
+    border: 0.1rem solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+    box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+}
+
+.btn-style-border:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+    text-transform: capitalize;
+}
+.service-main-container .main-heading {
+    margin: 3rem 0;
+}
+
+footer li {
+    list-style: none;
+    font-size: 1.5rem;
+    color: #c1c1c1;
+    cursor: pointer;
+    margin: 5px 0;
+    font-weight: 400;
+}
+
+footer li:hover, footer li a:hover{
+    color: #f5e18c;
+}
+footer li strong {
+    white-space: nowrap;
+    width: 100%;
+    float: left;
+    font-weight: normal;
+}
+@keyframes rotatefont {
+    0% {
+        transform: scale(0.6);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+footer .main-hero-para {
+    margin: 0;
+}
+
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    max-width: 90%;
+}
+
+.navbar-brand img {
+    width: 150px;
+    transition: ease all 0.5s;
+}
+body {
+    font-size: 16px;
+    line-height: 22px;
+    color: #565656;
+}
+.copyright {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: solid 1px #ad2f31;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright p a, .copyright p {
+    color: #fff;
+}
+.copyright p {
+    text-align: left !important;
+    float: left;
+    width: auto !important;
+    font-weight: 400;
+}
+
+.navbar-bg.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: smoothScroll 1s forwards;
+    height: 100px;
+}
+  
+  @keyframes smoothScroll {
+    0% {
+        transform: translateY(-40px);
+    }
+  
+    100% {
+        transform: translateY(0px);
+    }
+  }
+  
+.navbar-brand img.whitelogo {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+}
+
+.navbar-light .navbar-brand {
+    position: relative;
+}
+
+.navbar-bg.fixed .navbar-brand img.whitelogo {
+    opacity: 1;
+}
+
+.navbar-bg.fixed .navbar-brand img.defaultlogo {
+    opacity: 0;
+}
+
+.button-container-2 button {
+    width: 101%;
+    height: 100%;
+    font-size: 25px;
+    letter-spacing: 1px;
+    background: #bd1218;
+    -webkit-mask: url(http://localhost:3000/images/urban-sprite.png);
+    -webkit-mask-size: 3000% 100%;
+    mask-size: 3000% 100%;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    animation: ani2 0.7s steps(29) forwards;
+}
+.fixed .menus {
+    top: 1em;
+}
+.fterbox ul.sociallinks li:hover {
+    border-color: #000;
+}
+
+.fterbox ul.sociallinks li:hover a i {
+    color: #000;
+}

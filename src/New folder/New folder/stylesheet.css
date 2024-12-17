@@ -1,0 +1,956 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ul, li{
+    list-style: none;
+}
+body{
+    font-family: 'Archer';
+}
+.menus, .menus ul {
+    width: 100%;
+    float: left;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-expand-lg .navbar-nav li a {
+    font-family: 'Archer Book';
+}
+.navbar-light .navbar-nav .nav-link {
+    padding: 0;
+    color: #000;
+    font-size: 21px;
+    letter-spacing: 0.5px;
+}
+.navbar-bg {
+    z-index: 99;
+    position: relative;
+    margin: 0;
+    width: 100%;
+    box-shadow: 0 4px 3px rgb(0 0 0 / 10%);
+    float: left;
+    background-image: url(https://dhbh.in/triverse/redcow/images/header-bg.png);
+    height: 140px;
+}
+.menus {
+    position: relative;
+    top: 2em;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ec1f28;
+}
+.navbar {
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+.navbar-bg:before {
+    content: '';
+    background-image: url(https://dhbh.in/triverse/redcow/images/header-bg.png);
+    position: absolute;
+    top: 1.5em;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+}
+header {
+    width: 100%;
+    float: left;
+}
+.carousel-item img {
+    margin-top: 1vh;
+}
+section{
+    width: 100%;
+    float: left;
+    margin-top: 7em;
+}
+.web-container {
+    width: 74%;
+    margin: 0px auto;
+}
+.prodimg {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    float: left;
+}
+.prodimg h5 {
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Archer Book';
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    background: #bd1218;
+    color: #fff;
+    padding: 12px 100px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+}
+
+.prodimg img {
+    width: 100%;
+}
+
+.heading h2 {
+    font-size: 45px;
+    line-height: 50px;
+    position: relative;
+    font-family: 'Mikkel Sans';
+    text-align: center;
+}
+.heading h2:before {
+    content: '';
+    background-image: url(https://dhbh.in/triverse/redcow/images/heading-arrow.png);
+    width: 150px;
+    height: 8px;
+    background-size: contain;
+    position: absolute;
+    bottom: -35%;
+    left: 52%;
+    transform: translateX(-50%);
+    background-repeat: no-repeat;
+}
+.count {
+    width: 100%;
+    float: left;
+    margin: 50px 0;
+}
+
+.count ul {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.count ul li {
+    position: relative;
+    width: auto;
+    float: left;
+    text-align: center;
+    color: #fff;
+}
+
+.count ul li span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.count ul li span strong {
+    font-size: 60px;
+    line-height: 60px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+.count ul li span p {
+    font-size: 25px;
+    line-height: 30px;
+}
+.sweetbanner {
+    width: 100%;
+    float: left;
+    background-image: url(https://dhbh.in/triverse/redcow/images/sweet.jpg);
+    height: 82vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sweetbanner h2 {
+    width: 100%;
+    text-align: center;
+    color: #ffc857;
+    font-size: 66px;
+    margin: 0;
+    font-family: 'Mikkel Sans';
+}
+.aboutus p {
+    margin-top: 50px;
+    font-size: 23px;
+    line-height: 36px;
+    color: #000;
+    padding: 0 120px;
+    text-align: center;
+}
+.social-media {
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.socialicons {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.social-media .container{
+    position: relative;
+}
+.socialicons ul {
+    display: flex;
+    padding-left: 30px;
+}
+
+.socialicons ul li {
+    margin: 0 15px;
+}
+.socialicons:before {
+    content: '';
+    background-image: url(https://dhbh.in/triverse/redcow/images/line.png);
+    width: 100%;
+    float: left;
+    height: 50px;
+    position: absolute;
+    top: -5em;
+    background-size: cover;
+}
+footer {
+    padding: 5rem 0;
+    background-image: url(https://dhbh.in/triverse/redcow/images/footer.png);
+    color: #fff;
+    float: left;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer h2 {
+    color: #fff;
+}
+.fterbox {
+    width: 23%;
+    margin: 50px 5%;
+    position: relative;
+}
+footer li a {
+    font-size: 26px;
+    line-height: 32px;
+    color: #fff !important;
+}
+.navbar li {
+    padding: 0 3.5rem;
+}
+footer li.contact a span {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+footer li.contact a {
+    display: flex;
+    align-items: baseline;
+}
+.fterbox ul {
+    width: 100%;
+}
+.fterbox ul.sociallinks {
+    display: flex;
+    align-items: end;
+    height: 70%;
+    margin: 0;
+}
+
+.fterbox ul.sociallinks li {
+    border-radius: 100%;
+    border: solid 2px #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.fterbox ul.sociallinks li a i {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.fterbox ul.sociallinks li a {
+    line-height: 10px;
+}
+.button-container-2 {
+    position: relative;
+    width: 320px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7vh;
+    overflow: hidden;
+    border: 1px solid #bd1218;
+    font-weight: 300;
+    transition: 0.5s;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    white-space: nowrap;
+}
+  .button-container-2 button:hover {
+    -webkit-animation: ani 0.7s steps(29) forwards;
+    animation: ani 0.7s steps(29) forwards;
+  }
+  
+  .mas {
+    position: absolute;
+    color: #000;
+    text-align: center;
+    width: 101%;
+    position: absolute;
+    font-size: 25px;
+    margin-top: 15px;
+    overflow: hidden;
+    font-weight: normal;
+  }
+  
+  @-webkit-keyframes ani {
+    from {
+      -webkit-mask-position: 0 0;
+      mask-position: 0 0;
+    }
+    to {
+      -webkit-mask-position: 100% 0;
+      mask-position: 100% 0;
+    }
+  }
+  @keyframes ani {
+    from {
+      -webkit-mask-position: 0 0;
+      mask-position: 0 0;
+    }
+    to {
+      -webkit-mask-position: 100% 0;
+      mask-position: 100% 0;
+    }
+  }
+  @-webkit-keyframes ani2 {
+    from {
+      -webkit-mask-position: 100% 0;
+      mask-position: 100% 0;
+    }
+    to {
+      -webkit-mask-position: 0 0;
+      mask-position: 0 0;
+    }
+  }
+  @keyframes ani2 {
+    from {
+      -webkit-mask-position: 100% 0;
+      mask-position: 100% 0;
+    }
+    to {
+      -webkit-mask-position: 0 0;
+      mask-position: 0 0;
+    }
+  }
+  a {
+    color: #00ff95;
+  }
+  .story-banner {
+    width: 100%;
+    float: left;
+}
+
+.story-banner img {
+    width: 100%;
+}
+.about p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #000;
+}
+
+.about {
+    width: 100%;
+    float: left;
+    margin: 50px 0;
+}
+
+.content {
+    width: 80%;
+    margin: 0 10%;
+}
+.about .col-md-6:nth-child(1) .content p:nth-child(1):first-letter {font-size: 50px;font-weight: bold;padding-right: 5px;}
+.bannercont {
+    width: 100%;
+    float: left;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img01{
+    background-image: url(https://dhbh.in/triverse/redcow/images/pride-of-bengal.png);   
+}
+.img02 {
+    background-image: url(https://dhbh.in/triverse/redcow/images/mission-banner.jpg);
+    background-position: right;
+}
+.about .col-md-6:nth-child(1) .content p:nth-child(1):first-letter {font-size: 50px;font-weight: bold;padding-right: 5px;}
+
+.countings {
+    width: 100%;
+    float: left;
+}
+
+.countings ul {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.countings ul li strong {
+    font-size: 56px;
+    color: #ac0306;
+    line-height: 60px;
+    width: 100%;
+    float: left;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.countings ul li {
+    text-align: center;
+    position: relative;
+    width: 20%;
+}
+.countings ul li span {
+    font-size: 25px;
+    color: #fff;
+    margin: 10px 0;
+    display: inline-block;
+    line-height: 30px;
+}
+.countings ul li:before {content: '';width: 1px;height: 100%;position: absolute;right: 0;background: #ededed;transform: rotate(25deg);}
+.countings ul li:last-child:before {
+    background: none;
+}
+.our-ethos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    float: left;
+    margin: 50px 0;
+}
+
+.our-ethos .row {align-items: center;}
+
+.our-ethos p {
+    font-size: 28px;
+    line-height: 36px;
+    margin: 10px 0;
+    padding: 10px 0;
+    position:relative;
+}
+.our-ethos .col-md-4 {
+    text-align: center;
+    position: relative;
+}
+.our-ethos .col-md-4 h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    line-height: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.mission h3 {
+    font-size: 40px;
+    color: #ec1f28;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.mission {
+    text-align: center;
+    width: 60%;
+    float: left;
+    margin: 0 20%;
+}
+
+.mission h5 {
+    color: #fff;
+    font-size: 38px;
+    line-height: 42px;
+    margin: 25px 0 0 0;
+    font-family: 'Mikkel Sans';
+}
+.founder {
+    background: #bfe6f5;
+    padding: 50px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.founder p {
+    width: 80%;
+    position: relative;
+    margin: 70px auto 25px auto;
+    padding-top: 70px;
+    font-size: 28px;
+    line-height: 36px;
+    color: #000;
+    text-align: center;
+}
+
+.founder p img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.heading {
+    width: 100%;
+    float: left;
+}
+.founder_name {
+    width: 100%;
+    text-align: center;
+}
+
+.founder_name h3 {
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.founder_name span {
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 30px;
+    color: #000;
+}
+.testimonial {
+    width: 100%;
+    float: left;
+    margin: 70px 0;
+}
+
+.testimonial-text {
+    width: 100%;
+    float: left;
+}
+
+.testimonial-text p {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 18px;
+    line-height: 26px;
+}
+.testimonial-img, .video, .videobox {
+    width: 100%;
+    float: left;
+}
+
+.testimonial-img img {
+    max-width: 100%;
+}
+
+.testimonial-img h3 {
+    font-size: 25px;
+    margin: 20px 0;
+}
+.testimonial-box {
+    width: 80%;
+}
+.videobox {
+    margin: 50px 0;
+}
+.img02 {
+    background-image: url(https://dhbh.in/triverse/redcow/images/mission-banner.jpg);
+    background-position: right;
+}
+.our-products {
+    background-image: url(https://dhbh.in/triverse/redcow/images/product-bg.jpg);
+    padding: 100px 0 0 0;
+}
+.prolist {
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 70px 0;
+    float: left;
+}
+
+.probox {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.probox h4 {
+    font-size: 23px;
+    font-family: 'Archer';
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin: 5px 0 15px 0;
+}
+.product-detail {
+    background-image: url(https://dhbh.in/triverse/redcow/images/ghee-bg.jpg);
+    padding: 101px 0 0px 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 110vh;
+}
+.product-container {
+    width: 60%;
+    margin: 0px auto;
+}
+
+.produ_img {
+    width: 100%;
+    float: left;
+}
+
+.product-container .col-md-7 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.produ_cont {
+    width: 100%;
+}
+
+.produ_cont h4 {
+    font-size: 54px;
+    font-family: 'Mikkel Sans';
+    line-height: 60px;
+}
+
+.produ_cont p {
+    font-size: 18px;
+    line-height: 28px;
+    width: 80%;
+}
+.tick {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 70px 0 25px 0;
+    padding-top: 70px;
+    border-top: dashed 4px #cb242c;
+}
+.tick li {
+    width:25%;
+    text-align: center;
+}
+.tick li span {
+    width: 100%;
+    float: left;
+    font-size: 26px;
+    font-family: 'Mikkel Sans';
+    line-height: 40px;
+}
+.nav-toggle {
+    display: block;
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    position: relative;
+    float: right;
+    z-index: 9;
+    right: 0;
+}
+.nav-toggle span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    border-radius: 1px;
+    background: #000;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    float: left;
+    position: absolute;
+}
+.nav-toggle span:nth-child(1) {
+    top: 0px;
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+}
+.nav-toggle span:nth-child(2) {
+    top: 15px;
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+    width: 100%;
+}
+.nav-toggle span:nth-child(3) {
+    top: 20px;
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+    width: 100%;
+}
+
+.nav-toggle.open span:nth-child(1) {
+    transform: rotate(45deg);
+    top: -2px;
+    left: 0;
+}
+.nav-toggle.open span:nth-child(2) {
+    transform: rotate(-45deg);
+    top: 25px;
+    left: 0;
+}
+.carousel-control-prev-icon:before {
+    content: '';
+    width: 50px;
+    height: 100px;
+    background: #cf0400;
+    display: inline-block;
+    z-index: -1;
+    left: 0;
+    position: absolute;    
+    left:-20px;
+}
+.carousel-control-next-icon:before {
+    content: '';
+    width: 50px;
+    height: 100px;
+    background: #cf0400;
+    display: inline-block;
+    z-index: -1;
+    right: 0;
+    position: absolute;
+    right:-20px;
+}
+.carousel-control-next-icon{
+    background-image:url('https://dhbh.in/triverse/redcow/images/right-arrow.png');
+    position: relative;
+    right:20px
+}
+.carousel-control-prev-icon {
+    background-image: url(https://dhbh.in/triverse/redcow/images/left-arrow.png);
+    position: relative;
+    left:20px;
+}
+div#carouselExample1 .carousel-control-next-icon:before, div#carouselExample1 .carousel-control-prev-icon:before{
+    opacity: 0;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 6.5rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+.carousel-control-next, .carousel-control-prev {
+    opacity: 1;
+    width: auto;
+}
+
+div#carouselExample1 img {
+    height: auto;
+}
+.productslider {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+.navbar-bg img {
+    width: 268px;
+    transition: ease all 0.5s;
+}
+div#carouselExample1 .carousel-control-next-icon{
+    background-image:url('https://dhbh.in/triverse/redcow/images/bold-arrow-right.png');
+    position: relative;
+    right:20px;
+    height: 4rem;
+    width: 4rem;
+}
+div#carouselExample1 .carousel-control-prev-icon {
+    background-image: url(https://dhbh.in/triverse/redcow/images/bold-arrow-left.png);
+    position: relative;
+    left: 20px;
+    height: 4rem;
+    width: 4rem;
+}
+div#carouselExample1 button.carousel-control-prev {
+    padding: 0;
+    left: -5%;
+}
+div#carouselExample1 button.carousel-control-right {
+    padding: 0;
+    right: -5%;
+}
+.navbar-bg.fixed img {
+    width: 220px;
+}
+footer li a:hover, .copyright p a:hover {
+    color: #000 !important;
+}
+.slidercont {
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    text-align: center;
+}
+
+.slidercont h3 {
+    margin: 0;
+    font-size: 46px;
+    line-height: 60px;
+    color: #fff;
+    text-align: left;
+    font-family: 'Kaushan Script';
+}
+@media (max-width: 1640px) {
+    body {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    .navbar-bg img {
+        width: 200px;
+    }
+    .navbar-bg.fixed img {
+        width: 170px;
+    }
+    
+    .navbar-bg.fixed {
+        height: 80px;
+    }
+    .navbar-bg {
+        height: 100px;
+    }
+    
+    .navbar li {
+        padding: 0 1.8rem;
+    }
+    
+    .menus {
+        top: 1.5em;
+    }
+    
+    .nav-toggle span {
+        height: 2px;
+    }
+    
+    .count ul li {
+        width: 20%;
+    }
+    
+    .count ul li img {
+        width: 100%;
+    }
+    
+    .web-container {
+        width: 90%;
+    }
+    
+    .count {
+        margin: 45px 0 0 0;
+    }
+    
+    .count ul li span strong {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    
+    .count ul li span p {
+        font-size: 19px;
+        line-height: 22px;
+    }
+    
+    .count ul li span {
+        width: 60%;
+    }
+    
+    .heading h2 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    
+    .sweetbanner {
+        height: 70vh;
+    }
+    
+    .sweetbanner h2 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    
+    .aboutus p {
+        font-size: 19px;
+        line-height: 30px;
+    }
+    
+    .button-container-2 button, .mas {
+        font-size: 20px;
+    }
+    
+    .button-container-2 {
+        width: 250px;
+    }
+    
+    footer li a {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    footer li.contact a span {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+    .fterbox ul {
+        padding-left: 0;
+    }
+    
+    .fterbox ul.sociallinks li {
+        width: 35px;
+        height: 35px;
+    }
+    .fterbox ul.sociallinks li a i {
+        font-size: 13px;
+    }
+    
+    .socialicons ul li img {width: 40px;}
+    
+    .carousel-control-prev-icon:before {
+        width: 40px;
+        height: 80px;
+    }
+    
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 6rem;
+        height: 3rem;
+    }
+    
+    .prodimg h5 {
+        font-size: 21px;
+        padding: 10px 60px;
+    }
+    
+    .productslider div#carouselExample1 {
+        width: 80% !important;
+        margin: 0px auto;
+    }
+    }

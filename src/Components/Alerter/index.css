@@ -1,0 +1,36 @@
+.custom-alert {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 1000;
+  animation: fade-in 0.3s ease;
+}
+
+.custom-alert.info {
+  background-color: #2196f3;
+}
+
+.custom-alert.success {
+  background-color: #4caf50;
+}
+
+.custom-alert.error {
+  background-color: #f44336;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    top: 0px;
+  }
+  to {
+    opacity: 1;
+    top: 20px;
+  }
+}

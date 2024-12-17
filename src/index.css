@@ -1,0 +1,26 @@
+/* General container for the stars */
+.rating-container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 24px; /* Adjust star size */
+  cursor: pointer;
+}
+
+/* Inactive star styling */
+.star {
+  color: #d3d3d3; /* Grey color for inactive stars */
+  transition: color 0.3s ease;
+}
+
+/* Active star styling */
+.star.active,
+.star.half {
+  color: #ffa500; /* Orange for active stars */
+}
+
+/* Hover effects */
+.star:hover ~ .star,
+.star:hover {
+  color: #ffcc00; /* Lighter shade on hover */
+}

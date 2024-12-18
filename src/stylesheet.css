@@ -2059,6 +2059,7 @@ li.isActive.tshow ul.display-flex.hemmenu {
   height: 100px;
   resize: none;
   padding: 15px;
+  line-height: 1.2;
 }
 
 .forms ul li:last-child,
@@ -2777,12 +2778,18 @@ footer li a,
   margin: 20px 0 100px 0;
 }
 
-
 #icereammenu .knowmore {
   color: #000;
 }
 .feedback_form .w_50 {
   width: 48% !important;
+}
+select option:disabled,
+.feedback_form ul li select option:disabled {
+  color: #757575 !important;
+}
+.feedback_form ul li select {
+  color: #000;
 }
 
 @media (min-width: 1680px) {
@@ -4302,6 +4309,7 @@ footer li a,
   .forms ul li textarea {
     padding: 5px 10px;
     margin: 0;
+    line-height: 1.2;
   }
 
   .forms ul li:last-child input[type="submit"] {

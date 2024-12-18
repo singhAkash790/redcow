@@ -42,7 +42,7 @@ const Footer = () => {
                     data-aos="fade-up"
                     data-aos-delay="500"
                     data-aos-once="true"
-                    data-aos-duration="1000"
+                    data-aos-duration="400"
                   >
                     Our Co-ordinates
                   </h2>
@@ -53,9 +53,9 @@ const Footer = () => {
                       <div className="fterbox">
                         <ul
                           data-aos="fade-up"
-                          data-aos-delay="1000"
+                          data-aos-delay="400"
                           data-aos-once="true"
-                          data-aos-duration="1000"
+                          data-aos-duration="400"
                         >
                           <li>
                             <a href="#" id="disabledLink">
@@ -69,7 +69,7 @@ const Footer = () => {
                           data-aos="fade-up"
                           data-aos-delay="1100"
                           data-aos-once="true"
-                          data-aos-duration="1000"
+                          data-aos-duration="400"
                         >
                           <li>
                             <a
@@ -144,7 +144,7 @@ const Footer = () => {
                           data-aos="fade-up"
                           data-aos-delay="600"
                           data-aos-once="true"
-                          data-aos-duration="1000"
+                          data-aos-duration="400"
                         >
                           <li className="contactus">
                             <span>
@@ -171,7 +171,7 @@ const Footer = () => {
                           data-aos="fade-up"
                           data-aos-delay="700"
                           data-aos-once="true"
-                          data-aos-duration="1000"
+                          data-aos-duration="400"
                         >
                           <li className="contactus">
                             <span>
@@ -197,7 +197,7 @@ const Footer = () => {
                           data-aos="fade-up"
                           data-aos-delay="800"
                           data-aos-once="true"
-                          data-aos-duration="1000"
+                          data-aos-duration="400"
                         >
                           <li>
                             <NavLink
@@ -247,7 +247,7 @@ const Footer = () => {
                           data-aos="fade-up"
                           data-aos-delay="900"
                           data-aos-once="true"
-                          data-aos-duration="1000"
+                          data-aos-duration="400"
                         >
                           <li className="contactus">
                             <span>
@@ -272,7 +272,7 @@ const Footer = () => {
                           data-aos="fade-up"
                           data-aos-delay="500"
                           data-aos-once="true"
-                          data-aos-duration="1000"
+                          data-aos-duration="400"
                         >
                           <li className="ftrmlogo">
                             <a href="/" id="disabledLink">
@@ -293,7 +293,7 @@ const Footer = () => {
                           data-aos="fade-up"
                           data-aos-delay="500"
                           data-aos-once="true"
-                          data-aos-duration="1000"
+                          data-aos-duration="400"
                         >
                           <li className="certificate">
                             <a href="/" id="disabledLink">

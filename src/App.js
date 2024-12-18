@@ -61,7 +61,7 @@ const App = () => {
           <Route path="/terms-of-use" component={Terms}></Route>
           <Route path="/sitemap" component={Sitemap}></Route>
           <Route path="/home" component={Home2}></Route>
-          <Route path="/enquiry-submitted" component={ThnakYou}></Route>
+          <Route path="/thank-you" component={ThnakYou}></Route>
           <Route path="/accordians" component={Accordians}></Route>
           {/* <Route path="/icecream" component={Icecream}></Route> */}
           <Route component={Error}></Route>
